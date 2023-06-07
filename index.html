@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="informacoes">
+      <div class="informacao">
+        <span>Operador</span>
+        <input type="number" id="operador">
+      </div>
+      <div class="informacao">
+        <span>Parâmetro</span>
+        <input type="number" id="parametro">
+      </div>
+
+      <select name="operadores" id="operadores">
+        <option value="" selected>selecione</option>
+        <option value="somar">somar</option>
+        <option value="subtrair">subtrair</option>
+        <option value="dividir">dividir</option>
+        <option value="multiplicar">multiplicar</option>
+      </select>
+    </div>
+    <button id="executar">Executar</button><button id="apagar">reiniciar</button>
+    <div class="resultado">
+      <span>Resultado -> <strong class="valor"></strong></span>
+    </div>
+  </div>
+</body>
+
+</html>
