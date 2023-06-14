@@ -1,0 +1,17 @@
+$color-label:rgb(152, 20, 20);
+option{
+color:forestgreen
+}
+
+.informacoes{
+  
+  display: block;
+}
+
+span{
+  color:$color-label
+}
+
+strong{
+  color: rgb(42, 42, 247);
+}
